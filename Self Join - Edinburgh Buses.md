@@ -1,8 +1,14 @@
 # Self join - Edinburgh Buses
 
-## Table
-- stops(id, name)
-- route(num,company,pos, stop)
+## Tables
+Stops
+| id | name |
+| --- |---| 
+| 123 | some-name |
+Route
+| num | company | pos | stop |
+| --- |---| --- |---|  
+| 12 | some-company | 1 | 150 |
 
 ### 1. How many stops are in the database
 ```
