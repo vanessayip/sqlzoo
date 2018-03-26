@@ -2,8 +2,8 @@
 
 ## Tables
 Stops
-id | name 
---- |--- 
+id  | name 
+--- | --------- 
 123 | some-name 
 Route
 | num | company | pos | stop |
