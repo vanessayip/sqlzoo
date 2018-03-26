@@ -2,10 +2,13 @@
 
 ## Tables
 Stops
+
 id  | name 
 --- | --------- 
 123 | some-name 
-Route
+
+Routes
+
 | num | company | pos | stop |
 | --- |---| --- |---|  
 | 12 | some-company | 1 | 150 |
