@@ -1,8 +1,8 @@
 # Self join - Edinburgh Buses
 
 ## Table
-stops(id, name)
-route(num,company,pos, stop)
+- stops(id, name)
+- route(num,company,pos, stop)
 
 ### 1. How many stops are in the database
 ```
@@ -44,7 +44,9 @@ FROM route a JOIN route b ON
   JOIN stops stopb ON (b.stop=stopb.id)
 WHERE stopa.name='Craiglockhart'and stopb.name='London Road'
 ```
-### 7. Give a list of all the services which connect stops SELECT a.company, a.num
+### 7. Give a list of all the services which connect stops 
+```
+SELECT a.company, a.num
 FROM route a JOIN route b ON
   (a.company=b.company AND a.num=b.num)
 WHERE a.stop=115 and b.stop = 137
