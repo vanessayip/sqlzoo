@@ -2,15 +2,16 @@
 The school includes many departments. Most teachers work exclusively for a single department. Some teachers have no department.
 ## Tables
 Teacher
-| id | dept | name | phone | mobile
+
+| id | dept | name | phone | mobile |
 | --- |---| --- |---| --- |
 | 101 | 1 | Alice | 1234567890 | 0987654321 |
 | 102 | 1 | Bob | 2345678901 | 9876543210 |
 | 103 |  | Charles | 3456789012 | 8765432109 |
 | 104 | 2 | Daniella | 4567890123 | 7654321098 |
-| ... |
 
 Dept
+
 | id | name |
 | --- |---|
 | 12 | some-company |
